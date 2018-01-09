@@ -1,5 +1,5 @@
-# How Beautiful Her Feet
+# Compass Courage (WordPress Theme)
 
-A custom WordPress theme developed specifically for [HowBeautifulHerFeet.com](http://howbeautifulherfeet.com/).
+A custom WordPress theme developed specifically for [CompassCourage.com](http://compasscourage.com/).
 
 ![Screenshot](screenshot.png)
