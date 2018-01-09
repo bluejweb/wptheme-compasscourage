@@ -3,8 +3,8 @@
 
 <footer>
     <div class="wrap">
-        <p>"How beautiful are the feet of those who preach the good news!"</p>
-        <p>Copyright 2017. How Beautiful Her Feet.</p>
+        <p><?php echo get_bloginfo( 'description' ); ?></p>
+        <p>Copyright <span>2017</span>. <?php echo get_bloginfo( 'name' ); ?>.</p>
     </div>
     <?php get_template_part( 'template-parts/bluej' ); ?>
 </footer>
