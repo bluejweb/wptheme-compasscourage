@@ -1,6 +1,7 @@
 <?php
 
 add_theme_support( 'post-thumbnails' );
+add_image_size( 'square-large', 500, 500, true );
 
 register_nav_menus( array(
     'primary' => __( 'Primary Menu' ),

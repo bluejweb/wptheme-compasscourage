@@ -216,10 +216,6 @@ main:after {
 }
 
 .loop-post-single {
-    /*max-width: 500px;*/
-    /*margin: auto;*/
-}
-.loop-post-single img {
     width: 50%;
     height: auto;
     float: left;
@@ -227,9 +223,22 @@ main:after {
     box-sizing: border-box;
     transition: padding .1s;
 }
-.loop-post-single:hover img {
-    padding: 22px;
+.loop-post-single::after {
+    content: "";
+    clear: both;
+    display: table;
 }
+.loop-post-single a {
+    text-decoration: none;
+}
+.loop-post-title {
+    text-align: center;
+}
+.loop-post-single img {
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 2px lightgray;
+}
+
 
 .bluej-sig {
     color: #233a77;
