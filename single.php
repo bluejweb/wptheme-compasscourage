@@ -13,6 +13,8 @@ get_header(); ?>
         <?php echo the_content(); ?>
 
     <?php endwhile; ?>
+    
+    <?php comments_template(); ?>
 
 </main>
 
